@@ -26,8 +26,10 @@ function out = HTPCP(n, func, pars)
 %     Out.xFx:           x'*F(x)
 %     Out.time           CPU time
 %     Out.iter:          Number of iterations
-%     Out.grad:          Gradient at Out.sol
 %
+%  This solver was created based on the algorithm proposed by  
+%  Shang, M.,Zhang, C.,Peng, D.,& Zhou, S., A half thresholding projection 
+%  algorithm for sparse solutions of LCPs, Optimization Letters,9(6),1231-1245,2015
 %
 %%%%%%%    Send your comments and suggestions to                     %%%%%%
 %
