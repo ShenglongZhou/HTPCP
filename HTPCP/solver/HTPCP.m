@@ -21,11 +21,11 @@ function out = HTPCP(n, func, pars)
 %               pars.tol    --  Tolerance of stopping criteria. pars.maxit=1e-5 (default) 
 %
 % Outputs:
-%     Out.x:             The sparse solution x 
-%     Out.Fx:            F(x)
-%     Out.xFx:           x'*F(x)
-%     Out.time           CPU time
-%     Out.iter:          Number of iterations
+%     out.x:             The sparse solution x 
+%     out.Fx:            F(x)
+%     out.xFx:           x'*F(x)
+%     out.time           CPU time
+%     out.iter:          Number of iterations
 %
 %  This solver was created based on the algorithm proposed by  
 %  Shang, M.,Zhang, C.,Peng, D.,& Zhou, S., A half thresholding projection 
