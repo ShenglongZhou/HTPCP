@@ -12,6 +12,6 @@ case 'NC-atan'; func = @(x,T)(data.a.*atan(x)+data.M(:,T)*x(T)+data.q);
 case 'NC-exp';  func = @(x,T)(data.a.*exp(-x)+data.M(:,T)*x(T)+data.q);
 end
        
-out       = HTPCP(n,func) 
+out = HTPCP(n,func) 
 fprintf('relative error: %5.2e\n',norm(data.xopt-out.x)/norm(data.xopt))
  
